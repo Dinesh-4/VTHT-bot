@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-TOKEN = os.getenv('DISCORD_TOKEN', "MTA0NjUxNDIyNjcxOTY0MTYyMQ.GZ193h.FU_Gf2-e8phESRkLKqepq3xc3px5mBSKcDFWXc")
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 intents = discord.Intents.default()
 intents.members = True
